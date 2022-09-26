@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK A BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <title>Korean Cinema</title>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#estrenos">ESTRENOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#peliculas">PELICULAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#directores">DIRECTORES</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<h1 class="title">
+    KOREAN CINEMA 영화관
+</h1>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/burning.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/handmaiden.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/oldboy.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <main>
+
+    <h2>ESTRENOS</h2>
+    <section id="estrenos" class="container estrenos">
+      <div class="row">
+        <div class="col">
+          <a href="https://www.filmaffinity.com/es/film959058.html"> 
+            <img src="img/decision.jpg" alt=""> 
+          </a>
+        </div>
+        <div class="col">
+          <a href="https://es.wikipedia.org/wiki/Time_to_Hunt"> 
+            <img src="img/timetohunt.jpg" alt=""> 
+          </a>
+        </div>
+        <div class="col">
+          <a href="https://es.wikipedia.org/wiki/Pen%C3%ADnsula_(pel%C3%ADcula)"> 
+            <img src="img/peninsula.jpg" alt=""> 
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <h2>MEJORES PELÍCULAS</h2>
+    <section id="peliculas" class="container peliculas">
+      <div class="row">
+        <div class="col">
+          <a href="#">
+            <img src="img/poster1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col">
+          <a href="#">
+            <img src="img/poster2.webp" alt="">
+          </a>
+        </div>
+        <div class="col">
+          <a href="#">
+            <img src="img/poster3.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <a href="#">
+            <img src="img/poster4.jpg" alt="">
+          </a>
+        </div>
+        <div class="col">
+          <a href="#">
+            <img src="img/poster5.jpg" alt="">
+          </a>
+        </div>
+        <div class="col">
+          <a href="#">
+            <img src="img/poster6.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+  
+
+
+    <h2>DIRECTORES ACLAMADOS</h2>
+    <section class="directores" id="directores">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 330px;">
+            <img src="img/bong.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">BONG JOON-HO</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 330px;">
+            <img src="img/park-chan-wook.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">PARK CHAN-WOOK</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 330px;">
+            <img src="img/hong.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">HONG SANG-SOO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    Esta landing page fue realizada por Lautaro Martinez para la actividad asincrónica N°1 del curso de Fullstack Developer del ISPC.
+  </footer>
+
+
+
+    
+
+
+
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>
