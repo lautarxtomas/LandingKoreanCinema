@@ -64,6 +64,7 @@ main h2{
 
 .directores{
     padding: 30px;
+    margin: 0 auto;
 }
 
 .directores .card{
